@@ -233,9 +233,13 @@ Mean response time are calculated by sending a request every second, registering
 
 <img src="https://raw.github.com/slivu/1mc2/master/results/response-time.png">
 
-Processed requests per second depending on established connections:
+Mean processed requests per second depending on established connections:
 
 <img src="https://raw.github.com/slivu/1mc2/master/results/requests-per-second.png">
+
+As seen, while app holding and communicating to 1 million persistent connections it is still able to process about 200 standard requests per second.
+
+Pretty well if taking in account that a good half of average websites processing only about 100 requests per second.
 
 
 On link below you can see the progress - screenshots taken every 15 seconds(history starts at 12th slide):<br>
