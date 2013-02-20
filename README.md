@@ -236,6 +236,8 @@ Mean response time are calculated by sending a request every second, registering
 On link below you can see the progress - screenshots taken every 15 seconds(history starts at 12th slide):<br>
 [https://speakerdeck.com/slivu/ruby-handling-1-million-concurrent-connections](https://speakerdeck.com/slivu/ruby-handling-1-million-concurrent-connections)
 
+**Please leave your comments here** - [http://news.ycombinator.com/item?id=5249271](http://news.ycombinator.com/item?id=5249271)
+
 <hr>
 
 ### Author - [Silviu Rusu](https://github.com/slivu).  License - [MIT](https://github.com/espresso/espresso/blob/master/LICENSE).
