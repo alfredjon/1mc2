@@ -239,7 +239,7 @@ Mean processed requests per second depending on established connections:
 
 As seen, while app holding and communicating to 1 million persistent connections it is still able to process about 200 standard requests per second.
 
-Pretty well if taking in account that a good half of average websites processing only about 100 requests per second.
+Pretty well if taking in account that a good half of average websites are able to process only about 100 requests per second.
 
 
 On link below you can see the progress - screenshots taken every 15 seconds(history starts at 12th slide):<br>
