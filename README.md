@@ -86,6 +86,7 @@ class App < E
 end
 ```
 
+
 [More on Streaming](http://espresso.github.com/Streaming.html)
 
 
@@ -110,12 +111,11 @@ RUBY_GC_MALLOC_LIMIT=80000000
 
 This had a spectacular impact - performance increased by about 40%
 
-Did not try `JRuby` cause:
-  - i'm not aware of any easy to use and widely available `JRuby` web-server with streaming support
-  - `JRuby` would for sure consume much more than 15GB of RAM
-
 Really wanted to have this test also completed on `Rubinius 2.0.0rc1 1.9mode`, but somehow it is always segfaults after ~10,000 connections because of some `libpthread` issues. Had no time to investigate this.
 
+Would be really exciting to see this experiment running on `JRuby`.
+
+Anyone interested? I can provide load generation farm.
 
 
 ## Operating System
